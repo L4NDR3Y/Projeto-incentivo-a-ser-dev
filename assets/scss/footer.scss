@@ -1,0 +1,99 @@
+//footer
+footer {
+
+  //section
+  section {
+    z-index: 1000;
+    padding: 100px 0;
+    justify-content: space-around;
+    background-color: $color-black;
+    align-items: start;
+    margin: 0 -8px 0 -8px;
+
+
+    #Navegation {
+      ul {
+        p {
+          b {
+            color: $color-white;
+            border-bottom: 2px solid;
+            border-color: $color-primaria;
+            font-family: 'Share Tech Mono', monospace;
+
+          }
+        }
+
+        li {
+          margin: 10px 0;
+
+          a {
+            color: $color-white-select;
+          }
+        }
+      }
+    }
+  }
+
+  //end navegation
+
+  //Contacts
+  #Contacts {
+    p {
+      b {
+        color: $color-white;
+        border-bottom: 2px solid;
+        border-color: $color-primaria;
+        font-family: 'Share Tech Mono', monospace;
+
+      }
+    }
+
+    a {
+      p {
+        color: $color-white-select;
+
+        border-bottom: 2px solid;
+        border-color: black;
+      }
+    }
+  }
+
+  //end contacts
+
+  //Social media
+  #Social-media {
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      b {
+        color: $color-white;
+        border-bottom: 2px solid;
+        border-color: $color-primaria;
+        font-family: 'Share Tech Mono', monospace;
+
+      }
+    }
+
+    a {
+      margin: 5px 5px;
+
+
+      img {
+        width: 25px;
+      }
+    }
+  }
+
+  //end social media
+  //Copyright
+  #Copyright {
+    p {
+      color: $color-white;
+      font-size: 15px;
+
+    }
+  }
+}
+
+//end footer

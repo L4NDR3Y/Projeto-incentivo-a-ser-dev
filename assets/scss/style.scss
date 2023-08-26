@@ -1,0 +1,36 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Source+Sans+3:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Share+Tech+Mono&family=Source+Sans+3:wght@200;300;400&display=swap');
+
+// imports
+@import "./variaveis.scss";
+@import "./mixin.scss";
+@import "./header.scss";
+@import "./main.scss";
+@import "./buttons.scss";
+@import "./footer.scss";
+
+
+// reset
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  background-color: $color-background;
+}

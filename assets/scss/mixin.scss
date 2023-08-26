@@ -1,0 +1,27 @@
+@mixin style-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  font-family: 'Share Tech Mono', monospace;
+
+  h1 {
+    div {
+      display: flexbox;
+      height: 80px;
+      width: auto;
+    }
+
+    a {
+      color: $color-primaria;
+      font-size: 30px;
+      border-left: 4px solid;
+      border-color: $color-primaria;
+    }
+  }
+
+  h2 {
+    color: $color-white;
+    font-size: 20px;
+    margin-bottom: 100px;
+  }
+}
