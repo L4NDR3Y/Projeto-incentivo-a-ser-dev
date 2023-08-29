@@ -16,7 +16,7 @@ header {
     box-shadow: 0 2px 10px $color-black;
 
     img {
-      width: 150px;
+      width: 50px;
     }
 
     // end nav
@@ -33,37 +33,36 @@ header {
           background: transparent;
           font-family: 'Share Tech Mono', monospace;
           border-bottom: 2px solid;
+          transition: 0.2s;
 
           &:hover {
             border-bottom: 2px solid;
             border-color: $color-primaria;
-            transition: all ease-in;
-            transition-delay: 0.2s;
-          }
-        }
-
-        // a
-        a {
-
-          // b
-          b {
-            font-family: 'Share Tech Mono', monospace;
-            color: $color-white;
           }
 
-          // end b
+          // a
+          a {
+
+            // b
+            b {
+              font-family: 'Share Tech Mono', monospace;
+              color: $color-aqua;
+            }
+
+            // end b
+          }
+
+          // end a
         }
 
-        // end a
+        // end ul
       }
 
-      // end ul
+      // end nav
     }
 
-    // end nav
+    // end section
   }
 
-  // end section
+  // end header
 }
-
-// end header

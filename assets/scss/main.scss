@@ -1,14 +1,14 @@
 // main
 main {
+  //config do background-image
   padding: 70px 0;
   margin: 0 -8px;
 
-  @include Background-image-home;
+  // mixin.scss/@mixin background-image
+  @include Background-image;
 
-  @include Background-image-trajectory;
 
-  @include Background-image-porque-ser-dev;
-
+  //Page inicio
   .O-que-é-programação {
     @include style-text;
 
@@ -43,11 +43,17 @@ main {
     @include style-text;
   }
 
-  .Logica-de-programacao {
+  //end page inicio
+
+
+
+
+  //Page Trajectory
+  .Areas-da-programacao {
     @include style-text;
   }
 
-  .Areas-da-programacao {
+  .Logica-de-programacao {
     @include style-text;
   }
 
@@ -58,4 +64,24 @@ main {
   .Praticar {
     @include style-text
   }
+
+  //end page trajectory
+
+
+
+
+  //Pag porque ser dev
+  .Mercado-em-crescimento {
+    @include style-text;
+  }
+
+  .Esta-em-todo-lugar {
+    @include style-text;
+  }
+
+  .Poder-atuar-sem-diploma {
+    @include style-text;
+  }
 }
+
+//end page porque ser devs

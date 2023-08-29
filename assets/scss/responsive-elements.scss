@@ -1,0 +1,442 @@
+//responsive footer
+
+@media (max-width: 702px) {
+
+  //Config do Header 702px
+  header {
+    section {
+      img {
+        width: 50px;
+      }
+
+      nav {
+        ul {
+          li {
+            margin: 0 4px;
+            padding: 4px 12px;
+          }
+        }
+      }
+    }
+  }
+
+  // Config do main 702px 
+  main {
+
+    //Stilo dos conteudos
+    .Artigo {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      font-family: 'Share Tech Mono', monospace;
+
+      //h1
+      .Titulo-do-conteudo {
+
+        //spacing
+        .spacing {
+          display: flexbox;
+          height: 80px;
+          width: auto;
+        }
+
+        //end spacing
+
+        //border left
+        .border-left {
+          border-left: 3px solid;
+          border-color: $color-primaria;
+
+          //a
+          a {
+            color: $color-primaria;
+            font-size: 25px;
+          }
+
+          //end a
+        }
+
+        //end border left
+      }
+
+      //end h1
+
+      //h2
+      .Conteudo {
+        color: $color-aqua;
+        font-size: 16px;
+        margin-bottom: 100px;
+
+        //a
+        a {
+          color: $color-primaria;
+        }
+
+        //end a
+
+        //background pergunta
+        .Background-pergunta {
+          padding: 10px 10px;
+
+          background-color: $color-black;
+          border-radius: 0 10px;
+          border: 1px solid;
+          border-color: $color-primaria;
+
+          font-style: italic;
+          font-size: 15px;
+        }
+
+        //end background pergunta
+
+      }
+
+      //config do background/banner
+
+
+    }
+
+    //Stilo do background/banner
+    .row-flexbox {
+
+      //Background 1
+      .Background-home {
+        background-image: linear-gradient(to left, transparent 0%, $color-background 70%), url(../images/background-1.jpeg);
+        background-size: cover;
+        background-position: right center;
+        width: 100%;
+        height: 700px;
+        border-bottom: 2px solid;
+        border-color: rgba($color-primaria, 80%);
+      }
+
+      //End background 1
+
+      //Background 2
+      .Background-trajectory {
+        background-image: linear-gradient(to left, transparent 0%, $color-background 70%), url("../images/background-2.jpeg");
+        background-size: cover;
+        background-position: right center;
+        width: 100%;
+        height: 700px;
+        border-bottom: 2px solid;
+        border-color: rgba($color-primaria, 80%);
+      }
+
+      //End background 2
+
+
+      //Background 3
+      .Background-porque-ser-dev {
+        background-image: linear-gradient(to left, transparent 0%, $color-background 70%), url(../images/background-3.jpeg);
+        background-size: cover;
+        background-position: right center;
+        width: 100%;
+        height: 700px;
+        border-bottom: 2px solid;
+        border-color: rgba($color-primaria, 80%);
+      }
+
+      //End background 3
+
+
+      //group
+      .group {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10%;
+        align-items: center;
+        height: 60%;
+
+        .text {
+
+          //h1
+          h1 {
+            width: 380px;
+            color: $color-primaria;
+            font-size: 40px;
+            text-shadow: 0 0 15px $color-background;
+            margin-bottom: 0;
+            font-family: 'Share Tech Mono', monospace;
+
+          }
+
+          //end h1
+
+          //h2
+          h2 {
+            text-shadow: 0 0 15px $color-background;
+            width: 450px;
+            font-size: 20px;
+            font-family: 'Share Tech Mono', monospace;
+            margin-bottom: 15px;
+
+            //a
+            a {
+              color: $color-primaria;
+
+            }
+
+            //end a
+          }
+
+          //end h2
+        }
+
+        //end text
+      }
+
+
+      // Button 702px
+      .btn-blue {
+        padding: 5px 20px;
+        background-color: transparent;
+        font-family: 'Share Tech Mono', monospace;
+        color: $color-aqua;
+        border-radius: 3px 15px;
+        border: 1.5px solid;
+        border-color: $color-aqua;
+        font-size: 15px;
+        transition: 0.2s;
+
+        //hover
+        &:hover {
+          border-color: $color-primaria;
+          color: $color-primaria;
+        }
+
+        //end hover
+      }
+    }
+  }
+
+  //Config do footer 702px
+  footer {
+    .row {
+      display: flexbox;
+      flex-direction: row;
+    }
+  }
+}
+
+
+@media (max-width: 554px) {
+
+  //Config do Header 702px
+  header {
+    section {
+      display: flex-box;
+
+      img {
+        width: 50px;
+      }
+
+      nav {
+        ul {
+          li {
+            margin: 0 4px;
+            padding: 4px 12px;
+          }
+        }
+      }
+    }
+  }
+
+  // Config do main 702px 
+  main {
+
+    //Stilo dos conteudos
+    .Artigo {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      font-family: 'Share Tech Mono', monospace;
+
+      //h1
+      .Titulo-do-conteudo {
+
+        //spacing
+        .spacing {
+          display: flexbox;
+          height: 80px;
+          width: auto;
+        }
+
+        //end spacing
+
+        //border left
+        .border-left {
+          border-left: 3px solid;
+          border-color: $color-primaria;
+
+          //a
+          a {
+            color: $color-primaria;
+            font-size: 25px;
+          }
+
+          //end a
+        }
+
+        //end border left
+      }
+
+      //end h1
+
+      //h2
+      .Conteudo {
+        color: $color-aqua;
+        font-size: 16px;
+        margin-bottom: 100px;
+
+        //a
+        a {
+          color: $color-primaria;
+        }
+
+        //end a
+
+        //background pergunta
+        .Background-pergunta {
+          padding: 10px 10px;
+
+          background-color: $color-black;
+          border-radius: 0 10px;
+          border: 1px solid;
+          border-color: $color-primaria;
+
+          font-style: italic;
+          font-size: 15px;
+        }
+
+        //end background pergunta
+
+      }
+
+      //config do background/banner
+
+
+    }
+
+    //Stilo do background/banner
+    .row-flexbox {
+
+      //Background 1
+      .Background-home {
+        background-image: linear-gradient(to left, transparent 0%, $color-background 70%), url(../images/background-1.jpeg);
+        background-size: cover;
+        background-position: right center;
+        width: 100%;
+        height: 700px;
+        border-bottom: 2px solid;
+        border-color: rgba($color-primaria, 80%);
+      }
+
+      //End background 1
+
+      //Background 2
+      .Background-trajectory {
+        background-image: linear-gradient(to left, transparent 0%, $color-background 70%), url("../images/background-2.jpeg");
+        background-size: cover;
+        background-position: right center;
+        width: 100%;
+        height: 700px;
+        border-bottom: 2px solid;
+        border-color: rgba($color-primaria, 80%);
+      }
+
+      //End background 2
+
+
+      //Background 3
+      .Background-porque-ser-dev {
+        background-image: linear-gradient(to left, transparent 0%, $color-background 70%), url(../images/background-3.jpeg);
+        background-size: cover;
+        background-position: right center;
+        width: 100%;
+        height: 700px;
+        border-bottom: 2px solid;
+        border-color: rgba($color-primaria, 80%);
+      }
+
+      //End background 3
+
+
+      //group
+      .group {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10%;
+        align-items: center;
+        height: 60%;
+
+        .text {
+
+          //h1
+          h1 {
+            width: 380px;
+            color: $color-primaria;
+            font-size: 40px;
+            text-shadow: 0 0 15px $color-background;
+            margin-bottom: 0;
+            font-family: 'Share Tech Mono', monospace;
+
+          }
+
+          //end h1
+
+          //h2
+          h2 {
+            text-shadow: 0 0 15px $color-background;
+            width: 450px;
+            font-size: 20px;
+            font-family: 'Share Tech Mono', monospace;
+            margin-bottom: 15px;
+
+            //a
+            a {
+              color: $color-primaria;
+
+            }
+
+            //end a
+          }
+
+          //end h2
+        }
+
+        //end text
+      }
+
+
+      // Button 702px
+      .btn-blue {
+        padding: 5px 20px;
+        background-color: transparent;
+        font-family: 'Share Tech Mono', monospace;
+        color: $color-aqua;
+        border-radius: 3px 15px;
+        border: 1.5px solid;
+        border-color: $color-aqua;
+        font-size: 15px;
+        transition: 0.2s;
+
+        //hover
+        &:hover {
+          border-color: $color-primaria;
+          color: $color-primaria;
+        }
+
+        //end hover
+      }
+    }
+  }
+
+  //Config do footer 702px
+  footer {
+    .row {
+      display: flexbox;
+      flex-direction: row;
+    }
+  }
+}

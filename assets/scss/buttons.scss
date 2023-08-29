@@ -1,12 +1,17 @@
-// Button deepskyblue
-.btn {
+// Button
+.btn-blue {
   padding: 5px 20px;
   background-color: $color-primaria;
   font-family: 'Share Tech Mono', monospace;
   color: $color-background;
   border-radius: 3px 15px;
 
+  //hover
   &:hover {
     background-color: desaturate($color-primaria, 25%);
   }
+
+  //end hover
 }
+
+//end Button

@@ -2,7 +2,7 @@
 footer {
 
   //section
-  section {
+  .row {
     z-index: 1000;
     padding: 100px 0;
     justify-content: space-around;
@@ -10,91 +10,107 @@ footer {
     align-items: start;
     margin: 0 -8px 0 -8px;
 
+    .Navegation {
 
-    #Navegation {
+      //ul
       ul {
+
+        //p
         p {
+
+          //b
           b {
-            color: $color-white;
+            color: $color-aqua;
             border-bottom: 2px solid;
             border-color: $color-primaria;
             font-family: 'Share Tech Mono', monospace;
 
           }
+
+          //end b
         }
 
+        //end p
+
+        //li
         li {
           margin: 10px 0;
 
+          //a
           a {
             color: $color-white-select;
           }
+
+          //a
         }
+
+        //end li
       }
+
+      //end ul
     }
+
+    //end navegation
   }
 
-  //end navegation
+  //end section
+
 
   //Contacts
-  #Contacts {
+  .Contacts {
+
+    //p
     p {
+
+      //b
       b {
-        color: $color-white;
+        color: $color-aqua;
         border-bottom: 2px solid;
         border-color: $color-primaria;
         font-family: 'Share Tech Mono', monospace;
 
       }
+
+      //end b
     }
 
+    //end p
+
+    //a
     a {
+
+      //p
       p {
         color: $color-white-select;
         border-bottom: 2px solid;
         border-color: black;
 
       }
+
+      //end p
     }
+
+    //end a
   }
 
   //end contacts
 
-  //Social media
-  #Social-media {
-    flex-direction: column;
-    align-items: center;
 
-    p {
-      b {
-        color: $color-white;
-        border-bottom: 2px solid;
-        border-color: $color-primaria;
-        font-family: 'Share Tech Mono', monospace;
-
-      }
-    }
-
-    a {
-      margin: 5px 5px;
-
-
-      img {
-        width: 25px;
-      }
-    }
-  }
-
-  //end social media
   //Copyright
-  #Copyright {
+  .Copyright {
+
+    //p
     p {
-      color: $color-white;
+      color: $color-aqua;
       font-size: 15px;
       font-family: 'Source Sans 3', sans-serif;
 
     }
+
+    //end p
   }
+
+  //end Copyright
 }
 
 //end footer
